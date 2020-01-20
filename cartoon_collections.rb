@@ -3,7 +3,7 @@ def roll_call_dwarves(array)
     puts "#{index + 1}. #{dwarf}"
   end
 end
-
+roll_call_dwarves(["Doc", "Dopey", "Bashful", "Grumpy"])
 
 def summon_captain_planet(array)
   array.collect { |i| i.capitalize << "!" } 
@@ -20,6 +20,7 @@ def find_the_cheese(array)
    cheese_types = ["cheddar", "gouda", "camembert"]
    array.find { |i| i == "cheddar" || i == "gouda" || i = "camembert" }
 end
+
 
 
 
